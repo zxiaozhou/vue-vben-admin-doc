@@ -284,7 +284,7 @@ const setting: ProjectConfig = {
     showQuick: true,
     // 是否可以拖拽
     canDrag: true,
-    // 是否显示刷新那妞
+    // 是否显示刷新按钮
     showRedo: true,
     // 是否显示折叠按钮
     showFold: true,
@@ -298,7 +298,7 @@ const setting: ProjectConfig = {
     basicTransition: RouterTransitionEnum.FADE_SIDE,
     // 是否打开页面切换loading
     openPageLoading: true,
-    //是否打开页面切换顶部进度条
+    // 是否打开页面切换顶部进度条
     openNProgress: false,
   },
 
@@ -421,7 +421,7 @@ export const prefixCls = 'vben';
 
 ```vue
 <style lang="less" scoped>
-  /* namespace已经全局注入，不需要额外在引入 */
+  /* namespace已经全局注入，不需要额外再引入 */
   @prefix-cls: ~'@{namespace}-app-logo';
 
   .@{prefix-cls} {
